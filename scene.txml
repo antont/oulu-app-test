@@ -1,0 +1,60 @@
+<!DOCTYPE Scene>
+<scene>
+ <entity id="1" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="RocketEnvironment" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="507" type="MeshmoonSky" sync="true" name="RocketSky">
+   <attribute value="0" type="uint" id="cloudCoverage" name="Cloud Coverage"/>
+   <attribute value="25" type="uint" id="timeZone" name="Time Zone"/>
+   <attribute value="1" type="uint" id="timeMode" name="Time Mode"/>
+   <attribute value="0" type="real" id="longitude" name="Longitude"/>
+   <attribute value="0" type="real" id="latitude" name="Latitude"/>
+   <attribute value="0.699999988" type="real" id="godRayIntensity" name="God Ray Intensity"/>
+   <attribute value="0.5" type="real" id="lightSourceBrightness" name="Light Source Intensity"/>
+   <attribute value="1.79999995" type="real" id="gamma" name="Gamma"/>
+   <attribute value="0" type="real" id="windDirection" name="Wind Direction in Degrees"/>
+   <attribute value="0" type="real" id="windSpeed" name="Wind Speed m/s"/>
+   <attribute value="false" type="bool" id="lensFlares" name="Lens Flares"/>
+   <attribute value="9.48999977" type="real" id="time" name="Time"/>
+   <attribute value="1" type="real" id="timeMultiplier" name="Time Multiplier"/>
+   <attribute value="" type="string" id="date" name="Date"/>
+  </component>
+  <component typeId="506" type="MeshmoonWater" sync="true" name="RocketWater">
+   <attribute value="0" type="uint" id="simulationModel" name="Water Type"/>
+   <attribute value="4" type="uint" id="beaufortScale" name="Beaufort Scale"/>
+   <attribute value="0 0.200000003 0.300000012 1" type="Color" id="waterColor" name="Water Color"/>
+   <attribute value="false" type="bool" id="sprayEnabled" name="Spray Enabled"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="false" type="bool" id="enableHeightQueries" name="Enable Height Queries"/>
+   <attribute value="2" type="real" id="waveChoppiness" name="Wave Choppiness"/>
+   <attribute value="-30" type="real" id="seaLevel" name="Sea Level"/>
+   <attribute value="0.600000024" type="real" id="reflectionIntensity" name="Reflection Intensity"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="false" type="bool" id="reflectionsEnabled" name="Reflections Enabled"/>
+  </component>
+ </entity>
+ <entity id="2" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="Application: oulu app test" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="Applications" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="5" type="Script" sync="true" name="Desktop">
+   <attribute value="app-server-and-rocket.js" type="AssetReferenceList" id="scriptRef" name="Script ref"/>
+   <attribute value="true" type="bool" id="runOnLoad" name="Run on load"/>
+   <attribute value="0" type="int" id="runMode" name="Run mode"/>
+   <attribute value="" type="string" id="applicationName" name="Script application name"/>
+   <attribute value="" type="string" id="className" name="Script class name"/>
+  </component>
+  <component typeId="5" type="Script" sync="true" name="Web">
+   <attribute value="app-web-rocket.webrocketjs" type="AssetReferenceList" id="scriptRef" name="Script ref"/>
+   <attribute value="true" type="bool" id="runOnLoad" name="Run on load"/>
+   <attribute value="1" type="int" id="runMode" name="Run mode"/>
+   <attribute value="" type="string" id="applicationName" name="Script application name"/>
+   <attribute value="" type="string" id="className" name="Script class name"/>
+  </component>
+ </entity>
+</scene>

@@ -1,0 +1,15 @@
+{
+    "Name": "oulu app test",
+    "Description": "uses oulu app base test",
+    "Txml": "scene.txml",
+    "Img": "application.jpg",
+    "SourceDir": "",
+    "SourceWebRocket": "app-web-rocket.webrocketjs",
+    "SourceRocket": "app-server-and-rocket.js",
+    "CompatibleWebRocket": true,
+    "CompatibleRocket": true,
+    "CompatibleServer": true,
+    "Layers": [
+        "017cfd36-5957-456f-8dfb-09e4e04db035"
+    ]
+}
